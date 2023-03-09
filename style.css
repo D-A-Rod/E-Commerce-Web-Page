@@ -1,0 +1,164 @@
+body {
+  background-color: bisque;
+  font-family: fantasy;
+}
+/* top part of page */
+header {
+  display: flex;
+  /*border: 3px solid greenyellow;*/
+  justify-content: space-between;
+  background-color: blue;
+  height: 2.5rem;
+  font-size: x-large;
+
+  
+}
+
+
+.leftHeader:hover {
+  /*border: 3px solid brown;*/
+}
+.rightHeader {
+  /* border: 3px solid brown;*/
+}
+/* middle part of page */
+.bottomHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.leftPanel {
+  /* border: 3px solid red;*/
+  display: flex;
+}
+.menuBar {
+  /*border: 3px solid red;*/
+  width: 20%;
+  margin-top: 3.25rem;
+}
+
+.productCards {
+  /*border: 3px solid red;*/
+  display: flex;
+  
+  
+}
+
+.card1 {
+  margin: 3rem;
+}
+
+.spanCard {
+  background-color: blue;
+  width: 11rem;
+}
+
+/* bottom part of page */
+
+li {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 10rem;
+  text-align: center;
+  
+}
+
+li:hover {
+    background-color: aqua;
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: blue;
+  color: white;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  background-color: blue;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  height: 2rem;
+  margin: .5rem;
+  
+}
+
+span {
+  background-color: blue;
+  color: white;
+}
+
+.go {
+  background-color: blue;
+  color: white;
+  height: 2rem;
+  margin: .5rem;
+  margin-left: 1rem;
+}
+
+.quirky {
+  height: 5rem;
+  margin-left: 3.5rem;
+  margin-top: .5rem;
+}
+
+a {
+  color: azure;
+  text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+li:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.br {
+  padding-right: 5px;
+  border-right: 2px solid white;
+}
+
+.br:hover {
+    background-color: aqua;
+}
+
+input {
+  width: 50rem;
+  height: 2rem;
+  background-color: bisque;
+  border: none;
+  border-bottom: 1px solid blue;
+  border-right: 1px solid blue;
+  box-shadow: 10px 5px 5px;
+}
+
+.buy {
+    background-color: blue;
+    color: white;
+    padding: .20em;
+}
+
+.buy:hover{
+    background-color: aqua;
+    color: black;
+}
